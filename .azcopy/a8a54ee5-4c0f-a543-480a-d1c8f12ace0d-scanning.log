@@ -1,0 +1,22 @@
+2026/10/12 09:08:52 AzcopyVersion  10.32.2
+2026/10/12 09:08:52 OS-Environment  linux
+2026/10/12 09:08:52 OS-Architecture  amd64
+2026/10/12 09:08:52 Log times are in UTC. Local time is 12 Oct 2026 09:08:52
+2026/10/12 09:08:52 File .env was skipped because the source has an older LMT than the destination
+2026/10/12 09:08:52 File .gitignore was skipped because the source has an older LMT than the destination
+2026/10/12 09:08:52 File orders.db was skipped because the source has an older LMT than the destination
+2026/10/12 09:08:52 File package-lock.json was skipped because the source has an older LMT than the destination
+2026/10/12 09:08:52 File package.json was skipped because the source has an older LMT than the destination
+2026/10/12 09:08:52 File server.js was skipped because the source has an older LMT than the destination
+2026/10/12 09:08:52 File vercel.json was skipped because the source has an older LMT than the destination
+2026/10/12 09:08:52 File config/db.js was skipped because the source has an older LMT than the destination
+2026/10/12 09:08:52 File controller/todoController.js was skipped because the source has an older LMT than the destination
+2026/10/12 09:08:52 File controller/userController.js was skipped because the source has an older LMT than the destination
+2026/10/12 09:08:52 File scripts/seed.js was skipped because the source has an older LMT than the destination
+2026/10/12 09:08:52 File migrations/initDb.js was skipped because the source has an older LMT than the destination
+2026/10/12 09:08:52 File routes/todoRoutes.js was skipped because the source has an older LMT than the destination
+2026/10/12 09:08:52 File routes/userRoutes.js was skipped because the source has an older LMT than the destination
+2026/10/12 09:08:52 File models/todoModel.js was skipped because the source has an older LMT than the destination
+2026/10/12 09:08:52 File models/userModel.js was skipped because the source has an older LMT than the destination
+2026/10/12 09:08:52 File middleware/authMiddleware.js was skipped because the source has an older LMT than the destination
+2026/10/12 09:08:52 File database/todos.db was skipped because the source has an older LMT than the destination

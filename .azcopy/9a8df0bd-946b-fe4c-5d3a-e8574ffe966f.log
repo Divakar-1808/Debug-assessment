@@ -1,0 +1,300 @@
+2026/10/12 09:08:04 AzcopyVersion  10.32.2
+2026/10/12 09:08:04 OS-Environment  linux
+2026/10/12 09:08:04 OS-Architecture  amd64
+2026/10/12 09:08:04 Log times are in UTC. Local time is 12 Oct 2026 09:08:04
+2026/10/12 09:08:04 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2026-10-12T09:07:59Z or --include-after=2026-10-12T09:07:59Z
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/8.064349ms, OpTime=33.237715ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [240f566f-601e-0088-1029-5a55f9000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/4.073051ms, OpTime=4.454022ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d?comp=list&maxresults=1&prefix=client%2F&restype=container&se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [240f567a-601e-0088-1829-5a55f9000000]
+
+2026/10/12 09:08:04 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/3.280878ms, OpTime=3.371497ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [240f56a7-601e-0088-4329-5a55f9000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/5.183423ms, OpTime=5.21431ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d?comp=list&delimiter=%2F&include=metadata&prefix=client%2F&restype=container&se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [240f56a9-601e-0088-4529-5a55f9000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/5.007615ms, OpTime=5.036909ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d?comp=list&delimiter=%2F&include=metadata&prefix=client%2Fsrc%2F&restype=container&se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [240f56b5-601e-0088-5029-5a55f9000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/5.845037ms, OpTime=11.083062ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d?comp=list&delimiter=%2F&include=metadata&prefix=client%2Fpublic%2F&restype=container&se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [240f56bb-601e-0088-5629-5a55f9000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/10.530751ms, OpTime=16.684785ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d?comp=list&delimiter=%2F&include=metadata&prefix=client%2Fsrc%2Fapi%2F&restype=container&se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [d16ecbab-301e-0018-5829-5ac0b5000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/9.647854ms, OpTime=15.383487ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d?comp=list&delimiter=%2F&include=metadata&prefix=client%2Fsrc%2Fassets%2F&restype=container&se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [240f56c5-601e-0088-6029-5a55f9000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/6.233751ms, OpTime=22.364102ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d?comp=list&delimiter=%2F&include=metadata&prefix=client%2Fsrc%2Fhooks%2F&restype=container&se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [84236f22-301e-005c-2729-5a1cd9000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/9.504484ms, OpTime=23.095707ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d?comp=list&delimiter=%2F&include=metadata&prefix=client%2Fsrc%2Fcomponents%2F&restype=container&se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [96b2593c-401e-0058-0e29-5ae95b000000]
+
+2026/10/12 09:08:04 Job-Command sync /home/aivagam_user/client https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client?sv=2025-05-05&ss=btqf&srt=sco&spr=https&st=2026-10-12T09%3A07%3A01Z&se=2026-10-12T09%3A18%3A01Z&sp=rwdftlacupi&sig=-REDACTED- --delete-destination=true --exclude-path node_modules 
+2026/10/12 09:08:04 Number of CPUs: 1
+2026/10/12 09:08:04 Max file buffer RAM 0.500 GB
+2026/10/12 09:08:04 Max concurrent network operations: 32 (Based on number of CPUs. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2026/10/12 09:08:04 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2026/10/12 09:08:04 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2026/10/12 09:08:04 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2026/10/12 09:08:04 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2026/10/12 09:08:04 Max open files when downloading: 1048152 (auto-computed)
+2026/10/12 09:08:04 Final job part has been created
+2026/10/12 09:08:04 Final job part has been scheduled
+2026/10/12 09:08:04 INFO: [P#0-T#2] Starting transfer: Source "/home/aivagam_user/client/eslint.config.js" Destination "https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/eslint.config.js". Specified chunk size 8388608
+2026/10/12 09:08:04 INFO: [P#0-T#3] Starting transfer: Source "/home/aivagam_user/client/index.html" Destination "https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/index.html". Specified chunk size 8388608
+2026/10/12 09:08:04 INFO: [P#0-T#7] Starting transfer: Source "/home/aivagam_user/client/vite.config.js" Destination "https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/vite.config.js". Specified chunk size 8388608
+2026/10/12 09:08:04 INFO: [P#0-T#8] Starting transfer: Source "/home/aivagam_user/client/src/App.css" Destination "https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/App.css". Specified chunk size 8388608
+2026/10/12 09:08:04 INFO: [P#0-T#10] Starting transfer: Source "/home/aivagam_user/client/src/index.css" Destination "https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/index.css". Specified chunk size 8388608
+2026/10/12 09:08:04 INFO: [P#0-T#12] Starting transfer: Source "/home/aivagam_user/client/public/vite.svg" Destination "https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/public/vite.svg". Specified chunk size 8388608
+2026/10/12 09:08:04 INFO: [P#0-T#13] Starting transfer: Source "/home/aivagam_user/client/src/api/todoApi.js" Destination "https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/api/todoApi.js". Specified chunk size 8388608
+2026/10/12 09:08:04 INFO: [P#0-T#14] Starting transfer: Source "/home/aivagam_user/client/src/assets/react.svg" Destination "https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/assets/react.svg". Specified chunk size 8388608
+2026/10/12 09:08:04 INFO: [P#0-T#15] Starting transfer: Source "/home/aivagam_user/client/src/hooks/useTodo.js" Destination "https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/hooks/useTodo.js". Specified chunk size 8388608
+2026/10/12 09:08:04 INFO: [P#0-T#16] Starting transfer: Source "/home/aivagam_user/client/src/components/AddTodo.css" Destination "https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/components/AddTodo.css". Specified chunk size 8388608
+2026/10/12 09:08:04 INFO: [P#0-T#18] Starting transfer: Source "/home/aivagam_user/client/src/components/TodoItem.css" Destination "https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/components/TodoItem.css". Specified chunk size 8388608
+2026/10/12 09:08:04 INFO: [P#0-T#0] Starting transfer: Source "/home/aivagam_user/client/.gitignore" Destination "https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/.gitignore". Specified chunk size 8388608
+2026/10/12 09:08:04 INFO: [P#0-T#1] Starting transfer: Source "/home/aivagam_user/client/README.md" Destination "https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/README.md". Specified chunk size 8388608
+2026/10/12 09:08:04 INFO: [P#0-T#4] Starting transfer: Source "/home/aivagam_user/client/package-lock.json" Destination "https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/package-lock.json". Specified chunk size 8388608
+2026/10/12 09:08:04 INFO: [P#0-T#5] Starting transfer: Source "/home/aivagam_user/client/package.json" Destination "https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/package.json". Specified chunk size 8388608
+2026/10/12 09:08:04 INFO: [P#0-T#6] Starting transfer: Source "/home/aivagam_user/client/vercel.json" Destination "https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/vercel.json". Specified chunk size 8388608
+2026/10/12 09:08:04 INFO: [P#0-T#9] Starting transfer: Source "/home/aivagam_user/client/src/App.jsx" Destination "https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/App.jsx". Specified chunk size 8388608
+2026/10/12 09:08:04 INFO: [P#0-T#11] Starting transfer: Source "/home/aivagam_user/client/src/index.jsx" Destination "https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/index.jsx". Specified chunk size 8388608
+2026/10/12 09:08:04 INFO: [P#0-T#17] Starting transfer: Source "/home/aivagam_user/client/src/components/AddTodo.jsx" Destination "https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/components/AddTodo.jsx". Specified chunk size 8388608
+2026/10/12 09:08:04 INFO: [P#0-T#19] Starting transfer: Source "/home/aivagam_user/client/src/components/TodoItem.jsx" Destination "https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/components/TodoItem.jsx". Specified chunk size 8388608
+2026/10/12 09:08:04 INFO: [P#0-T#20] Starting transfer: Source "/home/aivagam_user/client/src/components/TodoList.jsx" Destination "https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/components/TodoList.jsx". Specified chunk size 8388608
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/8.183391ms, OpTime=8.33856ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Feslint.config.js?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [240f574a-601e-0088-5b29-5a55f9000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/16.658536ms, OpTime=16.704843ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Findex.html?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [2a7f9382-d01e-0012-3729-5ad93c000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/9.644117ms, OpTime=22.666719ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2Fhooks%2FuseTodo.js?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [824bf660-801e-0082-4129-5a4c70000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/14.41483ms, OpTime=23.195736ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fvite.config.js?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [240f574e-601e-0088-5f29-5a55f9000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/6.670859ms, OpTime=29.459525ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2F.gitignore?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [824bf66a-801e-0082-4929-5a4c70000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/6.949899ms, OpTime=29.695695ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2FREADME.md?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [240f5765-601e-0088-7429-5a55f9000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/8.097912ms, OpTime=30.594573ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2Fcomponents%2FAddTodo.css?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [9d777e98-d01e-0019-1329-5ac148000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/7.819923ms, OpTime=31.031168ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2FApp.css?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [2a7f9392-d01e-0012-4529-5ad93c000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/9.98848ms, OpTime=32.708698ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fpublic%2Fvite.svg?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [46ebfeca-501e-0008-6e29-5af653000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/11.132474ms, OpTime=33.687314ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2Fcomponents%2FTodoItem.css?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [8bb0123f-801e-0067-7529-5a5e87000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/11.216371ms, OpTime=34.337097ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2Fapi%2FtodoApi.js?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [9f297428-001e-007d-3629-5a71e8000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/8.19856ms, OpTime=34.509629ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fpackage-lock.json?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [712bb8e0-501e-0021-1429-5a8011000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/5.604278ms, OpTime=35.173758ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fpackage.json?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [824bf672-801e-0082-5129-5a4c70000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/12.634768ms, OpTime=35.821797ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2Findex.css?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [3c0332fe-001e-0010-0229-5adbc6000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/5.714063ms, OpTime=35.443652ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fvercel.json?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [240f576c-601e-0088-7b29-5a55f9000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/13.372284ms, OpTime=36.033422ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2Fassets%2Freact.svg?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [a034020b-d01e-007f-0c29-5a7312000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/5.914717ms, OpTime=36.318304ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2FApp.jsx?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [9d777e9f-d01e-0019-1829-5ac148000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/3.140731ms, OpTime=30.150053ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Feslint.config.js?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [712bb8eb-501e-0021-1d29-5a8011000000]
+
+2026/10/12 09:08:04 INFO: [P#0-T#2] UPLOADSUCCESSFUL: https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/eslint.config.js
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/2.763327ms, OpTime=21.864692ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Findex.html?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [824bf679-801e-0082-5829-5a4c70000000]
+
+2026/10/12 09:08:04 INFO: [P#0-T#3] UPLOADSUCCESSFUL: https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/index.html
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/5.687754ms, OpTime=37.958656ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2Fcomponents%2FAddTodo.jsx?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [46ebfed6-501e-0008-7529-5af653000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/2.845209ms, OpTime=15.820513ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2Fhooks%2FuseTodo.js?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [3c03330c-001e-0010-0d29-5adbc6000000]
+
+2026/10/12 09:08:04 INFO: [P#0-T#15] UPLOADSUCCESSFUL: https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/hooks/useTodo.js
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/2.983417ms, OpTime=15.98519ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fvite.config.js?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [240f5770-601e-0088-7f29-5a55f9000000]
+
+2026/10/12 09:08:04 INFO: [P#0-T#7] UPLOADSUCCESSFUL: https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/vite.config.js
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/7.88263ms, OpTime=38.540501ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2Findex.jsx?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [2a7f9398-d01e-0012-4a29-5ad93c000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/3.824116ms, OpTime=10.179225ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2F.gitignore?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [a0340211-d01e-007f-1029-5a7312000000]
+
+2026/10/12 09:08:04 INFO: [P#0-T#0] UPLOADSUCCESSFUL: https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/.gitignore
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/3.238323ms, OpTime=10.037772ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2FREADME.md?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [9d777ea2-d01e-0019-1b29-5ac148000000]
+
+2026/10/12 09:08:04 INFO: [P#0-T#1] UPLOADSUCCESSFUL: https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/README.md
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/6.41423ms, OpTime=39.719721ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2Fcomponents%2FTodoItem.jsx?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [8bb01247-801e-0067-7b29-5a5e87000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/6.015305ms, OpTime=39.897062ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2Fcomponents%2FTodoList.jsx?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [9f29742c-001e-007d-3829-5a71e8000000]
+
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/3.450559ms, OpTime=10.810764ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2Fcomponents%2FAddTodo.css?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [712bb8ef-501e-0021-2029-5a8011000000]
+
+2026/10/12 09:08:04 INFO: [P#0-T#16] UPLOADSUCCESSFUL: https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/components/AddTodo.css
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/3.303254ms, OpTime=10.694467ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2FApp.css?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [824bf67c-801e-0082-5b29-5a4c70000000]
+
+2026/10/12 09:08:04 INFO: [P#0-T#8] UPLOADSUCCESSFUL: https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/App.css
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/3.03334ms, OpTime=7.254147ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fpackage-lock.json?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [2a7f939d-d01e-0012-4f29-5ad93c000000]
+
+2026/10/12 09:08:04 INFO: [P#0-T#4] UPLOADSUCCESSFUL: https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/package-lock.json
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/3.608143ms, OpTime=8.298135ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2Fapi%2FtodoApi.js?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [240f5772-601e-0088-0129-5a55f9000000]
+
+2026/10/12 09:08:04 INFO: [P#0-T#13] UPLOADSUCCESSFUL: https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/api/todoApi.js
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/4.273885ms, OpTime=10.121017ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fpublic%2Fvite.svg?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [46ebfedb-501e-0008-7a29-5af653000000]
+
+2026/10/12 09:08:04 INFO: [P#0-T#12] UPLOADSUCCESSFUL: https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/public/vite.svg
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/3.030986ms, OpTime=7.431668ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2Findex.css?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [9d777ea7-d01e-0019-2029-5ac148000000]
+
+2026/10/12 09:08:04 INFO: [P#0-T#10] UPLOADSUCCESSFUL: https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/index.css
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/3.213557ms, OpTime=7.533408ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fvercel.json?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [8bb0124d-801e-0067-0129-5a5e87000000]
+
+2026/10/12 09:08:04 INFO: [P#0-T#6] UPLOADSUCCESSFUL: https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/vercel.json
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/3.850025ms, OpTime=8.239636ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fpackage.json?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [a0340212-d01e-007f-1129-5a7312000000]
+
+2026/10/12 09:08:04 INFO: [P#0-T#5] UPLOADSUCCESSFUL: https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/package.json
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/5.596674ms, OpTime=10.560998ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2Fcomponents%2FTodoItem.css?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [3c033310-001e-0010-1129-5adbc6000000]
+
+2026/10/12 09:08:04 INFO: [P#0-T#18] UPLOADSUCCESSFUL: https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/components/TodoItem.css
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/3.276114ms, OpTime=6.63365ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2Fcomponents%2FAddTodo.jsx?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [824bf680-801e-0082-5f29-5a4c70000000]
+
+2026/10/12 09:08:04 INFO: [P#0-T#17] UPLOADSUCCESSFUL: https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/components/AddTodo.jsx
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/3.356173ms, OpTime=6.523503ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2Findex.jsx?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [2a7f939f-d01e-0012-5129-5ad93c000000]
+
+2026/10/12 09:08:04 INFO: [P#0-T#11] UPLOADSUCCESSFUL: https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/index.jsx
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/4.028468ms, OpTime=8.898756ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2FApp.jsx?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [712bb8f3-501e-0021-2429-5a8011000000]
+
+2026/10/12 09:08:04 INFO: [P#0-T#9] UPLOADSUCCESSFUL: https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/App.jsx
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/5.378147ms, OpTime=9.726311ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2Fassets%2Freact.svg?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [9f297433-001e-007d-3d29-5a71e8000000]
+
+2026/10/12 09:08:04 INFO: [P#0-T#14] UPLOADSUCCESSFUL: https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/assets/react.svg
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/3.415113ms, OpTime=5.820161ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2Fcomponents%2FTodoItem.jsx?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [240f5776-601e-0088-0529-5a55f9000000]
+
+2026/10/12 09:08:04 INFO: [P#0-T#19] UPLOADSUCCESSFUL: https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/components/TodoItem.jsx
+2026/10/12 09:08:04 ==> REQUEST/RESPONSE (Try=1/3.555966ms, OpTime=5.905871ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client%2Fsrc%2Fcomponents%2FTodoList.jsx?se=2026-10-12T09%3A18%3A01Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A01Z&sv=2025-05-05
+   X-Ms-Request-Id: [46ebfee1-501e-0008-8029-5af653000000]
+
+2026/10/12 09:08:04 INFO: [P#0-T#20] UPLOADSUCCESSFUL: https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/client/src/components/TodoList.jsx
+2026/10/12 09:08:04 JobID=9a8df0bd-946b-fe4c-5d3a-e8574ffe966f, Part#=0, TransfersDone=21 of 21
+2026/10/12 09:08:04 all parts of entire Job 9a8df0bd-946b-fe4c-5d3a-e8574ffe966f successfully completed, cancelled or paused
+2026/10/12 09:08:04 is part of Job which 1 total number of parts done 
+2026/10/12 09:08:06 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  0, GRs: 32
+2026/10/12 09:08:06 100.0 %, 21 Done, 0 Failed, 0 Pending, 21 Total, 2-sec Throughput (Mb/s): 0.5575
+2026/10/12 09:08:06 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  0, GRs: 32
+2026/10/12 09:08:06 
+Job 9a8df0bd-946b-fe4c-5d3a-e8574ffe966f Summary
+Files Scanned at Source: 21
+Files Scanned at Destination: 21
+Elapsed Time (Minutes): 0.0335
+Number of Copy Transfers for Files: 21
+Number of Copy Transfers for Folder Properties: 0
+Number of Symlink Transfers: 0
+Total Number of Copy Transfers: 21
+Number of Copy Transfers Completed: 21
+Number of Copy Transfers Failed: 0
+Number of Deletions at Destination: 0
+Number of Symbolic Links Skipped: 0
+Number of Special Files Skipped: 0
+Number of Hardlinks Converted: 0
+Number of Hardlinks Skipped: 0
+Total Number of Bytes Transferred: 140100
+Total Number of Bytes Enumerated: 140100
+Final Job Status: Completed
+
+Diagnostic stats:
+IOPS: 16
+End-to-end ms per request: 20
+Network Errors: 0.00%
+Server Busy: 0.00%
+
+2026/10/12 09:08:06 Closing Log

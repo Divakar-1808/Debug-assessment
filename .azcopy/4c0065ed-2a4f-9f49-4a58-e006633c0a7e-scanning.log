@@ -1,0 +1,22 @@
+2026/10/12 09:08:06 AzcopyVersion  10.32.2
+2026/10/12 09:08:06 OS-Environment  linux
+2026/10/12 09:08:06 OS-Architecture  amd64
+2026/10/12 09:08:06 Log times are in UTC. Local time is 12 Oct 2026 09:08:06
+2026/10/12 09:08:06 File .env was overwritten because the source is more recent than the destination
+2026/10/12 09:08:06 File .gitignore was overwritten because the source is more recent than the destination
+2026/10/12 09:08:06 File orders.db was overwritten because the source is more recent than the destination
+2026/10/12 09:08:06 File package-lock.json was overwritten because the source is more recent than the destination
+2026/10/12 09:08:06 File package.json was overwritten because the source is more recent than the destination
+2026/10/12 09:08:06 File server.js was overwritten because the source is more recent than the destination
+2026/10/12 09:08:06 File vercel.json was overwritten because the source is more recent than the destination
+2026/10/12 09:08:06 File controller/todoController.js was overwritten because the source is more recent than the destination
+2026/10/12 09:08:06 File controller/userController.js was overwritten because the source is more recent than the destination
+2026/10/12 09:08:06 File database/todos.db was overwritten because the source is more recent than the destination
+2026/10/12 09:08:06 File middleware/authMiddleware.js was overwritten because the source is more recent than the destination
+2026/10/12 09:08:06 File migrations/initDb.js was overwritten because the source is more recent than the destination
+2026/10/12 09:08:06 File routes/todoRoutes.js was overwritten because the source is more recent than the destination
+2026/10/12 09:08:06 File routes/userRoutes.js was overwritten because the source is more recent than the destination
+2026/10/12 09:08:06 File models/todoModel.js was overwritten because the source is more recent than the destination
+2026/10/12 09:08:06 File models/userModel.js was overwritten because the source is more recent than the destination
+2026/10/12 09:08:06 File scripts/seed.js was overwritten because the source is more recent than the destination
+2026/10/12 09:08:06 File config/db.js was overwritten because the source is more recent than the destination

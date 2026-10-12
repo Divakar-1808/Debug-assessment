@@ -1,0 +1,95 @@
+2026/10/12 09:08:52 AzcopyVersion  10.32.2
+2026/10/12 09:08:52 OS-Environment  linux
+2026/10/12 09:08:52 OS-Architecture  amd64
+2026/10/12 09:08:52 Log times are in UTC. Local time is 12 Oct 2026 09:08:52
+2026/10/12 09:08:52 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2026-10-12T09:08:47Z or --include-after=2026-10-12T09:08:47Z
+2026/10/12 09:08:52 ==> REQUEST/RESPONSE (Try=1/7.939323ms, OpTime=37.51973ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/server?se=2026-10-12T09%3A18%3A46Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A46Z&sv=2025-05-05
+   X-Ms-Request-Id: [e5d6a34e-501e-004c-6029-5a2a3f000000]
+
+2026/10/12 09:08:52 ==> REQUEST/RESPONSE (Try=1/4.880551ms, OpTime=4.91759ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d?comp=list&maxresults=1&prefix=server%2F&restype=container&se=2026-10-12T09%3A18%3A46Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A46Z&sv=2025-05-05
+   X-Ms-Request-Id: [e5d6a356-501e-004c-6529-5a2a3f000000]
+
+2026/10/12 09:08:52 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2026/10/12 09:08:52 ==> REQUEST/RESPONSE (Try=1/4.199821ms, OpTime=4.24736ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/server?se=2026-10-12T09%3A18%3A46Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A46Z&sv=2025-05-05
+   X-Ms-Request-Id: [e5d6a386-501e-004c-1329-5a2a3f000000]
+
+2026/10/12 09:08:52 ==> REQUEST/RESPONSE (Try=1/6.316898ms, OpTime=6.343738ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d?comp=list&delimiter=%2F&include=metadata&prefix=server%2F&restype=container&se=2026-10-12T09%3A18%3A46Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A46Z&sv=2025-05-05
+   X-Ms-Request-Id: [e5d6a38a-501e-004c-1729-5a2a3f000000]
+
+2026/10/12 09:08:52 ==> REQUEST/RESPONSE (Try=1/5.254738ms, OpTime=5.281809ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d?comp=list&delimiter=%2F&include=metadata&prefix=server%2Fconfig%2F&restype=container&se=2026-10-12T09%3A18%3A46Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A46Z&sv=2025-05-05
+   X-Ms-Request-Id: [e5d6a393-501e-004c-1f29-5a2a3f000000]
+
+2026/10/12 09:08:52 ==> REQUEST/RESPONSE (Try=1/12.470343ms, OpTime=18.915241ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d?comp=list&delimiter=%2F&include=metadata&prefix=server%2Fcontroller%2F&restype=container&se=2026-10-12T09%3A18%3A46Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A46Z&sv=2025-05-05
+   X-Ms-Request-Id: [e5d6a39c-501e-004c-2829-5a2a3f000000]
+
+2026/10/12 09:08:52 ==> REQUEST/RESPONSE (Try=1/8.061712ms, OpTime=19.739046ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d?comp=list&delimiter=%2F&include=metadata&prefix=server%2Fscripts%2F&restype=container&se=2026-10-12T09%3A18%3A46Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A46Z&sv=2025-05-05
+   X-Ms-Request-Id: [2a8041b7-d01e-0012-2029-5ad93c000000]
+
+2026/10/12 09:08:52 ==> REQUEST/RESPONSE (Try=1/6.391017ms, OpTime=23.651692ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d?comp=list&delimiter=%2F&include=metadata&prefix=server%2Fmigrations%2F&restype=container&se=2026-10-12T09%3A18%3A46Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A46Z&sv=2025-05-05
+   X-Ms-Request-Id: [46eca12f-501e-0008-1c29-5af653000000]
+
+2026/10/12 09:08:52 ==> REQUEST/RESPONSE (Try=1/5.183636ms, OpTime=23.672702ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d?comp=list&delimiter=%2F&include=metadata&prefix=server%2Froutes%2F&restype=container&se=2026-10-12T09%3A18%3A46Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A46Z&sv=2025-05-05
+   X-Ms-Request-Id: [e5d6a3ae-501e-004c-3829-5a2a3f000000]
+
+2026/10/12 09:08:52 ==> REQUEST/RESPONSE (Try=1/5.681624ms, OpTime=24.255628ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d?comp=list&delimiter=%2F&include=metadata&prefix=server%2Fmodels%2F&restype=container&se=2026-10-12T09%3A18%3A46Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A46Z&sv=2025-05-05
+   X-Ms-Request-Id: [9d7840c5-d01e-0019-1f29-5ac148000000]
+
+2026/10/12 09:08:52 ==> REQUEST/RESPONSE (Try=1/13.178113ms, OpTime=30.520861ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d?comp=list&delimiter=%2F&include=metadata&prefix=server%2Fmiddleware%2F&restype=container&se=2026-10-12T09%3A18%3A46Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A46Z&sv=2025-05-05
+   X-Ms-Request-Id: [a03499d3-d01e-007f-4629-5a7312000000]
+
+2026/10/12 09:08:52 ==> REQUEST/RESPONSE (Try=1/12.057823ms, OpTime=31.033867ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d?comp=list&delimiter=%2F&include=metadata&prefix=server%2Fdatabase%2F&restype=container&se=2026-10-12T09%3A18%3A46Z&sig=-REDACTED-&sp=rwdftlacupi&spr=https&srt=sco&ss=btqf&st=2026-10-12T09%3A07%3A46Z&sv=2025-05-05
+   X-Ms-Request-Id: [712c4c03-501e-0021-0929-5a8011000000]
+
+2026/10/12 09:08:52 Job-Command sync /home/aivagam_user/server https://aivagamprodlmsstorage.blob.core.windows.net/48ac6b0e-8821-4d97-9ad2-daba5f8b321d/server?sv=2025-05-05&ss=btqf&srt=sco&spr=https&st=2026-10-12T09%3A07%3A46Z&se=2026-10-12T09%3A18%3A46Z&sp=rwdftlacupi&sig=-REDACTED- --delete-destination=true --exclude-path node_modules 
+2026/10/12 09:08:52 Number of CPUs: 1
+2026/10/12 09:08:52 Max file buffer RAM 0.500 GB
+2026/10/12 09:08:52 Max concurrent network operations: 32 (Based on number of CPUs. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2026/10/12 09:08:52 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2026/10/12 09:08:52 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2026/10/12 09:08:52 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2026/10/12 09:08:52 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2026/10/12 09:08:52 Max open files when downloading: 1048152 (auto-computed)
+2026/10/12 09:08:52 No transfers were scheduled.
+2026/10/12 09:08:52 Final job part has been created
+2026/10/12 09:08:54 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  0, GRs: 32
+2026/10/12 09:08:54 100.0 %, 0 Done, 0 Failed, 0 Pending, 0 Total, 2-sec Throughput (Mb/s): 0
+2026/10/12 09:08:54 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  0, GRs: 32
+2026/10/12 09:08:54 
+Job a8a54ee5-4c0f-a543-480a-d1c8f12ace0d Summary
+Files Scanned at Source: 18
+Files Scanned at Destination: 18
+Elapsed Time (Minutes): 0.0334
+Number of Copy Transfers for Files: 0
+Number of Copy Transfers for Folder Properties: 0
+Number of Symlink Transfers: 0
+Total Number of Copy Transfers: 0
+Number of Copy Transfers Completed: 0
+Number of Copy Transfers Failed: 0
+Number of Deletions at Destination: 0
+Number of Symbolic Links Skipped: 0
+Number of Special Files Skipped: 0
+Number of Hardlinks Converted: 0
+Number of Hardlinks Skipped: 0
+Total Number of Bytes Transferred: 0
+Total Number of Bytes Enumerated: 0
+Final Job Status: Completed
+
+Diagnostic stats:
+IOPS: 0
+End-to-end ms per request: 0
+Network Errors: 0.00%
+Server Busy: 0.00%
+
+2026/10/12 09:08:54 Closing Log
